@@ -1,57 +1,72 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:14b8a6&height=120&section=header&text=&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1220,45:1d4ed8,100:0f766e&height=12&section=header&text=&fontSize=0" width="100%" />
 
 <div align="center">
-  <a href="https://github.com/haotangyuan">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=2800&pause=1200&color=2563EB&center=true&vCenter=true&repeat=true&width=760&height=56&lines=Siyuan+Hao;AI+Agents+%2F+Developer+Tools+%2F+Systems;Building+local-first+tools+with+real+engineering+depth" alt="Typing introduction" />
-  </a>
-
   <br />
-
   <a href="https://github.com/haotangyuan">
-    <img src="https://img.shields.io/badge/GitHub-haotangyuan-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=2600&pause=1400&color=1D4ED8&center=true&vCenter=true&repeat=true&width=820&height=60&lines=Siyuan+Hao;Agent+Systems+%E2%80%A2+Backend+Infrastructure+%E2%80%A2+Dev+Tools;Building+tools+that+turn+ideas+into+working+systems" alt="Siyuan Hao" />
   </a>
-  <a href="https://www.sustech.edu.cn/">
-    <img src="https://img.shields.io/badge/SUSTech-Shenzhen-2563eb?style=for-the-badge" alt="SUSTech" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Agentic%20Developer%20Tools-14b8a6?style=for-the-badge" alt="Focus" />
+
+  <p>
+    <a href="https://github.com/haotangyuan">
+      <img src="https://img.shields.io/badge/GitHub-haotangyuan-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://www.sustech.edu.cn/">
+      <img src="https://img.shields.io/badge/SUSTech-Shenzhen-1d4ed8?style=for-the-badge" alt="SUSTech" />
+    </a>
+    <img src="https://img.shields.io/badge/Core-Agent%20%2B%20Backend%20%2B%20DevTool-0f766e?style=for-the-badge" alt="Core focus" />
+  </p>
+
+  <sub>AI agents as product engines. Backends as reliable foundations. Developer tools as leverage.</sub>
+  <br />
+  <br />
 </div>
 
 ---
 
+## Operating System
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### About
+### Agent Systems
 
-I build agentic developer tools, local-first apps, and reliable backend systems.
+Designing agent workflows that can search, reason, call tools, stream progress, and produce useful artifacts.
 
-My work sits around **AI agents**, **code intelligence**, **developer productivity**, and **systems engineering**.
+**Current interests**
 
-```ts
-const focus = [
-  "AI agent systems",
-  "developer tooling",
-  "local-first productivity",
-  "backend infrastructure",
-  "code intelligence",
-];
-```
+- multi-agent research
+- human-agent collaboration
+- tool orchestration
+- evaluation loops
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Now
+### Backend Infrastructure
 
-| Area | Current Direction |
-|---|---|
-| Agents | Multi-agent research and workflow automation |
-| Tools | Local-first developer productivity |
-| Code | Repository-scale understanding and indexing |
-| Systems | Observable, reliable backend platforms |
-| Product | Small tools with high leverage |
+Building services that are fast enough, observable enough, and simple enough to survive real usage.
 
-> Simpler tools. Stronger systems. Faster feedback.
+**Current interests**
+
+- Spring Boot systems
+- Redis and caching
+- async pipelines
+- OpenTelemetry
+
+</td>
+<td width="33%" valign="top">
+
+### Developer Tools
+
+Creating local-first tools that reduce friction for builders, especially around code, context, and daily workflow.
+
+**Current interests**
+
+- macOS native apps
+- code intelligence
+- local storage
+- keyboard-first UX
 
 </td>
 </tr>
@@ -59,57 +74,83 @@ const focus = [
 
 ---
 
-### Featured Projects
+## Selected Work
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**deep-research**](https://github.com/haotangyuan/deep-research) | Multi-agent deep research platform with streaming output and observability. | Java, Spring Boot, React, OpenTelemetry |
-| [**DevClip**](https://github.com/haotangyuan/DevClip) | Local-first, type-aware macOS clipboard workbench for developers. | Swift, SwiftUI, AppKit, GRDB, FTS5 |
-| [**codegraph**](https://github.com/haotangyuan/codegraph) | Local code knowledge graph for AI coding agents. | TypeScript |
-| [**shortlink**](https://github.com/haotangyuan/shortlink) | High-performance short link service with caching, sharding, stats, and rate limiting. | Java, Spring Boot, Redis |
-| [**KnowNote**](https://github.com/haotangyuan/KnowNote) | Knowledge writing and sharing platform with agentic research workflows. | Java, LangChain4j, RocketMQ, MinIO |
-| [**hermes-agent**](https://github.com/haotangyuan/hermes-agent) | Personal agent system designed to grow with the user. | Python |
+<table>
+<tr>
+<td width="32%" valign="top">
+
+### [deep-research](https://github.com/haotangyuan/deep-research)
+
+Multi-agent deep research platform with streaming output, search integration, and observable execution.
+
+`Java` `Spring Boot` `React` `SSE` `OpenTelemetry`
+
+</td>
+<td width="32%" valign="top">
+
+### [shortlink](https://github.com/haotangyuan/shortlink)
+
+High-performance short link service with caching, sharding, async stats, rate limiting, and an admin console.
+
+`Java` `Spring Boot` `Redis` `ShardingSphere` `React`
+
+</td>
+<td width="32%" valign="top">
+
+### [DevClip](https://github.com/haotangyuan/DevClip)
+
+Local-first, type-aware macOS clipboard workbench for developers, built around fast search and keyboard-first flows.
+
+`Swift` `SwiftUI` `AppKit` `GRDB` `SQLite FTS5`
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Stack
+## Toolbelt
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-0f172a?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0f172a?style=flat-square&logo=springboot&logoColor=6DB33F)
-![Swift](https://img.shields.io/badge/Swift-0f172a?style=flat-square&logo=swift&logoColor=F05138)
-![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=3178C6)
-![Python](https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=3776AB)
-![Rust](https://img.shields.io/badge/Rust-0f172a?style=flat-square&logo=rust&logoColor=white)
-![React](https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react&logoColor=61DAFB)
-![SQLite](https://img.shields.io/badge/SQLite-0f172a?style=flat-square&logo=sqlite&logoColor=3F9CD6)
-![Redis](https://img.shields.io/badge/Redis-0f172a?style=flat-square&logo=redis&logoColor=DC382D)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-0f172a?style=flat-square&logo=opentelemetry&logoColor=white)
+![Java](https://img.shields.io/badge/Java-0b1220?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0b1220?style=flat-square&logo=springboot&logoColor=6DB33F)
+![Swift](https://img.shields.io/badge/Swift-0b1220?style=flat-square&logo=swift&logoColor=F05138)
+![TypeScript](https://img.shields.io/badge/TypeScript-0b1220?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-0b1220?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-0b1220?style=flat-square&logo=python&logoColor=3776AB)
+![Redis](https://img.shields.io/badge/Redis-0b1220?style=flat-square&logo=redis&logoColor=DC382D)
+![SQLite](https://img.shields.io/badge/SQLite-0b1220?style=flat-square&logo=sqlite&logoColor=3F9CD6)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-0b1220?style=flat-square&logo=opentelemetry&logoColor=white)
 
 </div>
 
+```text
+agent layer     research workflows, tool calling, streaming UX
+backend layer   Java services, Redis, observability, async pipelines
+devtool layer   Swift macOS apps, local-first data, fast search
+```
+
 ---
 
 <div align="center">
 
-### GitHub Signal
+## GitHub Signal
 
-<img src="https://github-readme-stats.vercel.app/api?username=haotangyuan&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&text_color=475569&icon_color=14b8a6" height="156" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haotangyuan&layout=compact&theme=transparent&hide_border=true&title_color=2563eb&text_color=475569" height="156" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=haotangyuan&show_icons=true&theme=transparent&hide_border=true&title_color=1d4ed8&text_color=475569&icon_color=0f766e" height="156" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haotangyuan&layout=compact&theme=transparent&hide_border=true&title_color=1d4ed8&text_color=475569" height="156" alt="Top languages" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=haotangyuan&hide_border=true&background=00000000&ring=2563eb&fire=14b8a6&currStreakLabel=2563eb&sideLabels=475569&dates=64748b&currStreakNum=0f172a&sideNums=0f172a" height="156" alt="GitHub streak" />
+<img src="https://komarev.com/ghpvc/?username=haotangyuan&color=1d4ed8&style=flat-square&label=Profile+Views" alt="Profile views" />
 
 </div>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=haotangyuan&color=2563eb&style=flat-square&label=Profile+Views" alt="Profile views" />
-  <br />
-  <sub><em>Agentic tools, local-first workflows, and systems that stay understandable.</em></sub>
+  <sub><em>Build agents that do real work. Build backends that hold up. Build tools that feel inevitable.</em></sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,55:2563eb,100:0f172a&height=90&section=footer&text=&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f766e,55:1d4ed8,100:0b1220&height=12&section=footer&text=&fontSize=0" width="100%" />
